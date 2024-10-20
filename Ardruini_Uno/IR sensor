@@ -1,0 +1,21 @@
+#define sensor_1 A0;
+#define sensor_2 A1;
+#define value_1 ;
+#define value_2 ;
+
+void setup()
+{
+    Serial.begin(9600);
+    pinMode(sensor_1);
+    pinMode(sensor_2);
+}
+void loop()
+{
+    value_1 = analogRead(sensor_1);
+    Serial.println(value_1);
+    delay(100);
+    
+    value_2 = analogRead(sensor_2);
+    Serial.println(value_2);
+    delay(100);
+}
