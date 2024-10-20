@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-image: url("https://www.mckennaconsultants.com/wp-content/uploads/2020/02/big-data-iot-and-the-cloud.jpg");
+    color:cornsilk;
+ 
+
+}
+html{
+    background-image: url("https://www.mckennaconsultants.com/wp-content/uploads/2020/02/big-data-iot-and-the-cloud.jpg");
+}
+button{
+    padding:5px 30px;
+    background-color:transparent;
+  
+}
+*{
+    color: cornsilk;
+}
